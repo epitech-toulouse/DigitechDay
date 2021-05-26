@@ -12,6 +12,7 @@ $(NAME) : $(SHARED_LIB) $(OBJ)
 
 $(SHARED_LIB) : $(OBJ_LIB)
 		$(CC) -o $(SHARED_LIB) $(OBJ_LIB) -shared
+		export LD_LIBRARY_PATH=./
 
 all : $(NAME)
 
@@ -23,5 +24,8 @@ fclean : clean
 	rm -rf $(SHARED_LIB)
 
 re : fclean all
+
+run : all
+	LD_LIBRARY_PATH=./ ./$(NAME)
 
 .PHONY : all clean fclean
