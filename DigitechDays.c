@@ -20,28 +20,6 @@ int init_rand_number()
     return nb;
 }
 
-/*int my_algo(const char* response)
-{
-    static int max = 300;
-    static int min = 1;
-    static int secret_number = 0;
-
-    dprintf(2, "Response: [%s]\n", response);
-    if (!response)
-        return 0;
-    if (strncmp("Above", response, strlen("Above")) == 0) {
-        max = secret_number;
-        secret_number -= (max - min) / 2;
-    } else if ((strncmp("Below", response, strlen("Below")) == 0)) {
-        min = secret_number;
-        secret_number += (max - min) / 2;
-    } else {
-        secret_number = (max - min) / 2;
-    }    
-    dprintf(2, "Secret number: [%d]\n", secret_number);
-    return secret_number;
-}*/
-
 int referee(int secret_number)
 {
     char* response = ENTER;
