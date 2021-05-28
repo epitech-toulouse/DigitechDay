@@ -24,8 +24,8 @@ int referee(int secret_number)
     char* response = ENTER;
     int propal = -1;
 
-    while (propal != secret_number) {
-        dprintf(1, ENTER);
+    dprintf(1, "%s\n", ENTER);
+    while (propal != secret_number) {        
         propal = my_algo(response);
         if (propal > secret_number) {
             response = ABOVE;
