@@ -28,9 +28,9 @@ int referee(int secret_number)
     while (propal != secret_number) {        
         propal = my_algo(response);
         if (propal > secret_number) {
-            response = ABOVE;
-        } else if (propal < secret_number) {
             response = BELOW;
+        } else if (propal < secret_number) {
+            response = ABOVE;
         }
     }
     dprintf(1, CONGRAT);

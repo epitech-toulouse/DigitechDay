@@ -4,7 +4,7 @@ SRC = DigitechDays.c
 SRC_LIB =	algo.c
 OBJ = $(SRC:.c=.o)
 OBJ_LIB = $(SRC_LIB:.c=.o)
-NAME = DigitechDay.exe
+NAME = VincentLagaf
 SHARED_LIB = libalgo.so
 
 $(NAME) : $(SHARED_LIB) $(OBJ)
