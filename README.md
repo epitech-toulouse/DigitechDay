@@ -8,6 +8,7 @@ Pasque bon, la théorie c'est bien mais si on ne sais pas mettre tout cela en pr
 
 
 Croyez-le ou non, vous avez déjà le niveau pour réaliser un premier programme amusant! C'est un petit jeu en mode console (faites nous confiance, les programmes en fenetres arriverons bien assez vite).
+
 Le principe est simple, c'est le "juste prix"!
 
 
@@ -32,26 +33,34 @@ Le but est de trouver le nombre mystère en un minimum de coups.
 Préparatif 
 ------------------
 
+Vous avez un IDE ? Sinon on vous invite à télécharger Visual Studio Code ! 
 
-Il est temps de cloner VincentLagaf' ! 
-
-Comment ca cloner ?! Vous connaissez Git ? https://github.com/
-
+Il est temps de cloner le projet ! Cloner ? Commencez par regarder comment fonctionne Git ;)
 
 
 
 ------------------
-Exemple d'utilisation 
+Comment ça fonctionne ?
 ------------------
 
+```make``` pour compiler le projet
+```make run``` pour lancer le projet
+
+------------------
+Je dois faire quoi ?
+------------------
+
+A vos claviers ! Il est temps de développer votre premier algorithme !
+
+Ouvrez le fichier algo.c et produisez un algorithme digne de ce nom.
 
 
 
 ------------------
 Bonus 
 ------------------
-1. Faites un compteur de "coups", et 
-2. Lorsque la partie est terminé, le programme s'arrete. Pourquoi ne pas lui proposer si il souhaite faire une autre partie ?!
-3. Et si on jouait à deux ?! Implémentez un mode 2 joueurs! Attention, il faut pouvoir choisir entre jouer seul ou à deux ;)
+1. Faites un compteur de "coups"
+2. Lorsque la partie est terminée, le programme s'arrete. Pourquoi ne pas lui proposer si il souhaite faire une autre partie ?
+3. Et si on jouait à deux ? Implémentez un mode 2 joueurs! Attention, il faut pouvoir choisir entre jouer seul ou à deux ;)
 5. Trop facile! Et si on pouvait augmenter le niveau de difficulté ? Ajoutez cette option et augmentez la possibilité 
 
